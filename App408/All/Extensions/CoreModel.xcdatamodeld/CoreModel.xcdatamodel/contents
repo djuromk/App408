@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="22G513" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CalcModel" representedClassName="CalcModel" syncable="YES" codeGenerationType="class">
+        <attribute name="calBalance" optional="YES" attributeType="String"/>
+        <attribute name="calDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="calInterest" optional="YES" attributeType="String"/>
+        <attribute name="calReplen" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="InvModel" representedClassName="InvModel" syncable="YES" codeGenerationType="class">
+        <attribute name="currentProject" optional="YES" attributeType="String"/>
+        <attribute name="currentProjPhoto" optional="YES" attributeType="String"/>
+        <attribute name="invAmount" optional="YES" attributeType="String"/>
+        <attribute name="invDate" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ProjectModel" representedClassName="ProjectModel" syncable="YES" codeGenerationType="class">
+        <attribute name="projCategory" optional="YES" attributeType="String"/>
+        <attribute name="projDescription" optional="YES" attributeType="String"/>
+        <attribute name="projGoal" optional="YES" attributeType="String"/>
+        <attribute name="projName" optional="YES" attributeType="String"/>
+        <attribute name="projPhoto" optional="YES" attributeType="String"/>
+    </entity>
+</model>
